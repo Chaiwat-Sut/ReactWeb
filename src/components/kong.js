@@ -1,35 +1,26 @@
 import React, { useCallback } from "react";
-import { Link } from 'react-router-dom'
-import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import '../css/kong.css'
+
 import profile from '../img/kong-profile.gif'
 import fbicon from '../img/fb icon.jpg'
 import lineicon from '../img/line icon.jpg'
 import steamicon from '../img/steam icon.jpg'
 import igicon from '../img/ig.png'
 import phoneicon from '../img/Phone icon.jpg'
-import App from '../App.js'
+
+
 import { faCat } from "@fortawesome/free-solid-svg-icons";
 import { faGamepad } from "@fortawesome/free-solid-svg-icons";
 import { faHeadphones } from "@fortawesome/free-solid-svg-icons";
 import { faBook } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const StyledBody = styled.div`
-  background: url('https://images8.alphacoders.com/888/thumb-1920-888559.jpg');
-  background-size: cover;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-`;
+
 
 export default function kong() {
     return (
-        <StyledBody>
+        <div className = "kongbackground">
             <div><span className="mywork">My Work</span>
             <button className= "weekbutton" type="button"><b>2|29.04.2020</b></button> 
             <button className= "weekbutton" type="button"><b>3|2.05.2020</b></button> 
@@ -40,10 +31,10 @@ export default function kong() {
             </div>
     <div className="all">
         <h1 className="pro"><b>Profile</b></h1>
-        <img className = "profile" src = {profile} />
+        <img className = "profilekong" src = {profile} />
         <br />
         <br />
-        <table className="info">
+        <table className="infos">
             <tr>
                 <th className="big">ชื่อ:</th>
                 <td className="small">ชัยวัฒน์</td>
@@ -84,6 +75,6 @@ export default function kong() {
         <img className = "icon" src = {lineicon}/><span className="ID">ID:rockerlaw2135 </span>
         <img className = "icon" src = {phoneicon}/><span className="ID">0613845483</span>
         <span onClick={()=> window.open("https://www.facebook.com/goku.songoku.750/", "_blank")}><img className = "icon" src = {steamicon}/><span className="ID">Steam:Deapercost</span></span>
-        </StyledBody>
+        </div>
     )
 }

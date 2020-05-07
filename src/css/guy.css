@@ -1,3 +1,14 @@
-body {
-    
-}
+.App {
+    text-align: center;
+  }
+  .App-header {
+    background-image: url(../img/persona_5-12.png);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
