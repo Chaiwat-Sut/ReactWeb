@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap");
+.App {
+  text-align: center;
+}
+
+.Group {
+  color: rgb(19, 158, 38);
+  font-family: 'Righteous', cursive;
+  background-color: snow;
+  border-radius: 15px;
+  box-shadow: 7px 7px rgb(151, 144, 144);
+  background-size: 10px 30px;
+  width: 300px;
+  margin-left: 610px;
+  margin-top: -5px;
+  font-family: 'Righteous', cursive;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.Logo {
+  margin-top: -20px;
+  border-radius:  50%;
+  width: 250px;
+  height: 250px;
+}
+.quote {
+  font-size: 20px;
+  color: #ADFF2F;
+  background-color: #1B0707;
+  margin-left: 670px;
+  font-size: 32px;
+  font-family: 'Prompt', sans-serif;
+}
+
+.Member {
+  font-size: 38px;
+  background-color: silver;
+  width: 160px; 
+  height: 48px;
+  margin-left: 50px; 
+  box-shadow: 4px 4px 4px rgba(95, 93, 93, 0.87); 
+  border-radius: 11px;
+  font-family: 'Prompt', sans-serif;
+}
